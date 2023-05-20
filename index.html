@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="fondo.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="get">
+        nombre <input type="text" placeholder="nombre">
+        <br>
+        apellidos <input type="text" placeholder="apellido/s">
+        <br>
+        nickname <input type="text" placeholder="nick">
+        <br>
+        seleccione localidad
+        <br>
+            <select name="ciudad" id="ciudad">
+                <option value="ros ario">Rosario</option>
+                <option value="vgg">Villa Gob. Galvez</option>
+                <option value="alv">Alvear</option>
+                <option value="dellago">Gral. Lagos</option>
+                <option value="pavon">Pavón</option>
+            </select>
+            <br>
+            
+            <br>
+            <div class="form-check form-switch form-check-reverse">
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckReverse">
+                <label class="form-check-label" for="flexSwitchCheckReverse">(no)soy un robot</label>
+            </div>
+            <br>
+            <button type="button" class="btn btn-outline-danger">enviar</button>
+
+    </form>
+    <br>
+    <table border="1" class="table table-striped">
+        <h1>horarios</h1>
+            <tr>
+                <td>dias <br>/horas</td>
+                <td>lunes</td>
+                <td>martes</td>
+                <td>miercoles</td>
+                <td>jueves</td>
+                <td>viernes</td>
+            </tr>
+
+        <tr>
+            <td>8:30 hs</td>
+            <td>historia</td>
+            <td>educacion <br>ciudadana </td>
+            <td>lengua y <br>literatura</td>
+            <td>matematica</td>
+            <td>taller</td>
+        </tr>
+        
+        <tr>
+            <td>10 hs</td>
+            <td>ingles</td>
+            <td>biologia</td>
+            <td>dibujo tecnico</td>
+            <td>fisica</td>
+            <td>educacion <br>ciudadana </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
